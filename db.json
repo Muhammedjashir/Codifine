@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "d316",
+      "firstName": "dsfdsfddsa",
+      "lastName": "sfdssafasf",
+      "email": "jashirmhd71@gmail.com",
+      "dob": "2025-04-02",
+      "phone": "7356490668"
+    },
+    {
+      "id": "a261",
+      "firstName": "Muhammed",
+      "lastName": "Jashir T",
+      "email": "jashirmhd71@gmail.com",
+      "dob": "2025-04-03",
+      "phone": "7356490668"
+    },
+    {
+      "id": "2bc9",
+      "firstName": "Jashir",
+      "lastName": "T",
+      "email": "jashirmhd71@gmail.com",
+      "dob": "2025-04-11",
+      "phone": "7356490668"
+    }
+  ]
+}
