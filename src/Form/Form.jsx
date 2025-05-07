@@ -89,6 +89,8 @@ export default function SignUpSimple() {
                   placeholder={
                     field === "firstName"
                       ? "First name"
+                      :  field === "dob"
+                      ? "Date of Birth"
                       : field === "lastName"
                       ? "Last name"
                       : field === "phone"
