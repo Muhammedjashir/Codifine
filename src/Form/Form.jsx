@@ -63,7 +63,7 @@ export default function SignUpSimple() {
     }
   };
 
-  return (
+  return(
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-700 to-blue-300 p-4">
       <div className="bg-white rounded-2xl shadow-lg flex flex-col md:flex-row w-full max-w-4xl overflow-hidden">
         {/* Left Panel */}
