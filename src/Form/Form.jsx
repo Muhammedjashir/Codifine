@@ -45,6 +45,8 @@ export default function SignUpSimple() {
     } else {
       try {
         await axios.post("http://localhost:3001/users", formData);
+        console.log(formData);
+        
         setSubmitted(true);
         setFormData({
           firstName: "",
@@ -114,6 +116,7 @@ export default function SignUpSimple() {
             <button
               type="submit"
               className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition duration-300 cursor-pointer"
+              
             >
               Submit
             </button>
