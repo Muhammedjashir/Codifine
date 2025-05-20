@@ -44,7 +44,7 @@ export default function SignUpSimple() {
       setErrors(validationErrors);
     } else {
       try {
-        await axios.post("https://codifine-backend-11.onrender.com/users", formData);
+        await axios.post("https://codifine-backend-14.onrender.com/users", formData);
         console.log(formData);
         
         setSubmitted(true);
@@ -59,7 +59,6 @@ export default function SignUpSimple() {
         setTimeout(() => setSubmitted(false), 3000);
       } catch (error) {
         console.error("Error saving data:", error);
-        alert("Failed to submit form: " + error?.response?.data?.error || "Server error");
       }
     }
   };
