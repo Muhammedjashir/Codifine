@@ -44,7 +44,7 @@ export default function SignUpSimple() {
       setErrors(validationErrors);
     } else {
       try {
-        await axios.post("https://codifine-backend-11.onrender.com", formData);
+        await axios.post("https://codifine-backend-11.onrender.com/users", formData);
         console.log(formData);
         
         setSubmitted(true);
