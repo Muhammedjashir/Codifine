@@ -59,6 +59,7 @@ export default function SignUpSimple() {
         setTimeout(() => setSubmitted(false), 3000);
       } catch (error) {
         console.error("Error saving data:", error);
+        alert("Failed to submit form: " + error?.response?.data?.error || "Server error");
       }
     }
   };
